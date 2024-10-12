@@ -32,7 +32,7 @@ public class Main extends ApplicationAdapter {
         font.setColor(Color.WHITE);
 
         int width = 800; // 固定宽度
-        
+        int height = 600; // 固定高度
         camera = new OrthographicCamera();
         camera.setToOrtho(false, width, height);
         viewport = new FitViewport(width, height, camera);
